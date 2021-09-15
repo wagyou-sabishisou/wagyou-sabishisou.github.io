@@ -1,0 +1,85 @@
+h1{
+	color:white;
+	font-size:40px;
+}
+
+body{
+	background-color: #5b3333;
+}
+
+p{
+	color:white;
+	font-size:20px;
+	margin-left:2%;
+}
+
+h2{
+	color:white;
+	font-size:30px;
+	text-decoration:underline;
+}
+
+#disclaimer{
+	color:white;
+	font-size:10px;
+	bottom: 1%;
+	position:fixed;
+}
+
+ a:link{
+	color:white;
+	text-decoration: none;
+}
+
+a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:white;
+	text-decoration: underline;
+}
+
+.site_name{
+	writing-mode: vertical-rl;
+	color:white;
+	font-size:50px;
+	text-align: center;
+}
+
+.current_page{
+	font-style: italic;
+	font-weight:bold;
+}
+
+.other_page{
+	color: white;
+}
+
+.content{
+	display: block;
+	margin-right:10%;
+	position: relative;
+	
+	/*overflow:scroll;*/
+}
+
+/*information for making sidebar from https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+#nav_tab{
+	display: block;
+	height: 100%;
+	width:8%;
+	text-align: left;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #8b4646;
+	border-style: double;
+	border-color: black;
+	border-width: 0.5em;
+	min-width: 120px;
+	font-size:20px;
+	color:white;
+}
